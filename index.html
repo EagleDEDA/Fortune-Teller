@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>詢問神諭球</title>
+<title></title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <script>
@@ -199,11 +199,11 @@
 <body>
 
 <div class="container">
-  <h1>詢問神諭球</h1>
-  <p class="subtitle">在心裡想好你的問題，準備好之後，輕觸神諭球。</p>
+  <h1>解答之書</h1>
+  <p class="subtitle">默念你的問題三遍後，接著點我。</p>
 
   <div class="orb-wrap">
-    <button class="orb" id="orb" aria-label="輕觸以揭曉答案">輕觸</button>
+    <button class="orb" id="orb" aria-label="輕點以解惑">輕點</button>
   </div>
   <div class="orb-hint" id="hint">一次只問一個問題</div>
 
@@ -262,7 +262,7 @@
     "答案是平靜而堅定的：是。",
     "答案是平靜而堅定的：不。",
     "覺得沉重的不是你的答案，覺得輕盈的才是。",
-    "是的，門已經打開了，走進去吧。",
+    "自由竟是特效藥。",
     "命只有一條。",
     "有捨才有得。",
     "不要甩鍋。",
@@ -313,7 +313,7 @@
     orb.classList.add('shaking');
     orb.classList.add('disabled');
     orb.textContent = '···';
-    hint.textContent = '傾聽中…';
+    hint.textContent = '我想想…';
 
     // clear any previous answer card
     answerArea.innerHTML = '';
